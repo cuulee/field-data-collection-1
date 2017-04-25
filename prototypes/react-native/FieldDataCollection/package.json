@@ -5,11 +5,12 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "haul": "haul start"
+    "haul": "haul"
   },
   "dependencies": {
     "asyncstorage-down": "^3.1.1",
     "babel-plugin-rewrite-require": "^1.9.1",
+    "brfs": "^1.4.3",
     "browserify-zlib": "^0.1.4",
     "buffer": "^5.0.6",
     "constants-browserify": "^1.0.0",
@@ -31,13 +32,17 @@
     "stream-browserify": "^2.0.1",
     "stream-http": "^2.7.0",
     "timers-browserify": "^2.0.2",
+    "transform-loader": "^0.2.4",
     "tty-browserify": "0.0.0",
     "url": "^0.11.0",
     "util": "^0.10.3",
     "vm-browserify": "0.0.4"
   },
   "devDependencies": {
+    "babel-core": "^6.24.1",
     "babel-jest": "19.0.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
     "babel-preset-react-native": "1.9.1",
     "haul-cli": "^0.5.0",
     "jest": "19.0.2",
