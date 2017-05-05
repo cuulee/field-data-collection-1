@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "15.4.2",
     "react-native": "0.39.2",
-    "react-native-mapbox-gl": "^5.1.0"
+    "react-native-mapbox-gl": "github:alseageo/react-native-mapbox-gl#queryRenderedFeatures-android",
+    "react-navigation": "^1.0.0-beta.9"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
